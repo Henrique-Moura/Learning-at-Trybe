@@ -1,4 +1,6 @@
 let student = "euMesmo";
 let studentSkills = 10;
-//Eu sou Tryber e...
+javascript-updates
+//Eu sou Tryber e...Vou ter muito sucesso na programação!
+javascript-changes
 console.log("Sucesso!");
