@@ -1,6 +1,7 @@
-Estou um pouco atrasado no conteúdo, mas finalmente estou começando a entender, ressalto que a responsabilidade do atraso é exclusivamente minha, pois os especialistas e instrutores junto com o conteúdo disponibilizado estão sendo ótimo. Atribuo o atraso a falta de familariedade com comandos, o terminal e a plataforma Git.
+*Sejam Bem-Vindxs ao meu super repositório!!!*
 
-Nesta aula consegui compreender os comandos git add; git commit; git remote; git status; Pull; Push; git init. Por fim falta assimilar o conceito de branch e outros comandos.
+Aqui irão encontrar todos meus exercícios na Trybe. Isso é excelente pois poderão acompanhar meu crescimento, além dos ótimos desafios que nos são propostos.
 
-Abraços e até a próxima aula!
+Fique à vontade para vascular, comentar e eventualmente se inspirar.
 
+Um forte abraço e espero que gostem! 
