@@ -1,11 +1,9 @@
-// Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
-let numbers = [5, 9, 0, 19, 70, 8, 100, -1, 35, 27];
-    for(let index = 0; index < numbers.length; index+=1){
-        if(numbers[index] > 0) {
-            console.log('positive');
-        } else if (numbers[index] < 0) {
-            console.log('negative');
+// Com o mesmo código do exercício anterior, caso valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+    for(index = 0; index < numbers.length; index += 1){
+        if(numbers[index] > 20){
+            console.log("valor maior que 20");
         } else {
-            console.log('zero');
+            console.log("valor menor ou igual a 20");
         }
     }
