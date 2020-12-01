@@ -9,3 +9,4 @@ let numbers = [5, 9, 0, 19, 70, 8, 100, -1, 35, 27];
             console.log('zero');
         }
     }
+
