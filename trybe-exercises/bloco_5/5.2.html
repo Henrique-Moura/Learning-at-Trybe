@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+    <div id="paiDoPai">
+        <div id="pai">
+          <div id="primeiroFilho"></div>
+          <div id="elementoOndeVoceEsta">
+            <div id="primeiroFilhoDoFilho"></div>
+            <div id="segundoEUltimoFilhoDoFilho"></div>
+          </div>
+          Atenção!
+          <div id="terceiroFilho"></div>
+          <div id="quartoEUltimoFilho"></div>
+        </div>
+    </div>
+<script>
+    document.querySelector('#elementoOndeVoceEsta') //1
+    let pai = document.querySelector('#elementoOndeVoceEsta').parentNode //2
+    pai.style.color = 'red' //2
+    document.querySelector('#primeiroFilhoDoFilho').innerText = 'Continue focado!' //3
+    let child = document.querySelector('#pai').childNodes[1] //4
+    let anterior = document.querySelector('#elementoOndeVoceEsta').previousElementSibling //5
+    let proximoNo = document.querySelector('#elementoOndeVoceEsta').nextSibling //6
+    let proximoElemento = document.querySelector('#elementoOndeVoceEsta').nextElementSibling //7
+    let child2 = document.querySelector('#pai').childNodes[5] //8
+        
+</script>    
+</body>
+</html>
+<!-- 
+  Parte I
+1. Acesse o elemento elementoOndeVoceEsta .
+2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+4. Acesse o primeiroFilho a partir de pai .
+5. Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+8. Agora acesse o terceiroFilho a partir de pai . 
+  Parte II
+1. Crie um irmão para elementoOndeVoceEsta .
+2. Crie um filho para elementoOndeVoceEsta .
+3. Crie um filho para primeiroFilhoDoFilho .
+4. A partir desse filho criado, acesse terceiroFilho .-->
+
+
+    
+
