@@ -12,10 +12,10 @@ let description = {
     recorrente: 'Sim'
 };
 for(let property in info){
-    if (info[property] === 'Sim') { 
-        console.log('Ambos recorrentes')
+    if (info[property] === 'Sim' && description[property] === 'Sim' && property === 'recorrente') { 
+      console.log('Ambos recorrentes')
+    } else {
+      console.log(info[property],'e', description[property])
     }
-    console.log(info[property],'e', description[property])
-
   }
   
