@@ -15,15 +15,45 @@
     </div>
 <script>
     document.querySelector('#elementoOndeVoceEsta') //1
+
     let pai = document.querySelector('#elementoOndeVoceEsta').parentNode //2
     pai.style.color = 'red' //2
+
     document.querySelector('#primeiroFilhoDoFilho').innerText = 'Continue focado!' //3
+
     let child = document.querySelector('#pai').childNodes[1] //4
+
     let anterior = document.querySelector('#elementoOndeVoceEsta').previousElementSibling //5
+
     let proximoNo = document.querySelector('#elementoOndeVoceEsta').nextSibling //6
+
     let proximoElemento = document.querySelector('#elementoOndeVoceEsta').nextElementSibling //7
+
     let child2 = document.querySelector('#pai').childNodes[5] //8
-        
+    
+    let irmaoElementoOndeVoceEsta = document.querySelector('#pai')//partII-1 - 
+    let paragrafo = 'Você vai conseguir!'//partII-1
+    let criandoIrmao = document.createElement('p');//partII-1
+    criandoIrmao.innerText = paragrafo;//partII-1
+    irmaoElementoOndeVoceEsta.appendChild(criandoIrmao);//partII-1
+
+    let filhoElementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta');//partII-2 - Chame o elemento pai primeiro, depois crie qual tag quer usar e por fim mande ela ao HTML através do append.
+    let div = 'Já deu certo!';//partII-2
+    let criandoFilho = document.createElement('div');//partII-2
+    criandoFilho.innerText = div;//partII-2
+    filhoElementoOndeVoceEsta.appendChild(criandoFilho);//partII-2
+
+    let filhoElementoPrimeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho');//partII-3
+    let h1 = 'Filho Do Filho';//partII-3
+    let criandoFilhoDoFilho = document.createElement('div');//partII-3
+    criandoFilhoDoFilho.innerText = h1;//partII-3
+    filhoElementoPrimeiroFilhoDoFilho.appendChild(criandoFilhoDoFilho);//partII-3
+    
+    let filhoDoPrimeiroFilho =  document.querySelector('#primeiroFilhoDoFilho').childNodes[1]; //partII-4
+    filhoDoPrimeiroFilho.id = 'filhoDoPrimeiroFilho';//partII-4
+    document.querySelector('#filhoDoPrimeiroFilho').parentNode.parentNode.nextElementSibling;//partII-4
+
+    
 </script>    
 </body>
 </html>
