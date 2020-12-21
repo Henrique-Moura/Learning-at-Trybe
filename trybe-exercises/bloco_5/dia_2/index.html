@@ -57,27 +57,31 @@
   </head>
   <body>
     <script>
-    // Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
+    // 1- Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
         let body = document.querySelector('body');
         let titleH1 =  'Exercício 5.2 - JavaScript DOM';
         let createH1 = document.createElement('h1');
         createH1.innerText = titleH1;
         body.appendChild(createH1);
-    // Adicione a tag div com a classe main-content como filho da tag body;
-        let createDiv = document.createElement('div');
-        body.appendChild(createDiv);
-        createDiv.className = 'main-content';
-    // Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
+    // 2- Adicione a tag div com a classe main-content como filho da tag body;
+        let createDivMainContent = document.createElement('div');
+        body.appendChild(createDivMainContent);
+        createDivMainContent.className = 'main-content';
+    // 3- Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
         let divMainContent = document.querySelector('.main-content');
         let createDivCenterContent = document.createElement('div');
         divMainContent.appendChild(createDivCenterContent);
         createDivCenterContent.className = 'center-content';
-    //Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+    // 4- Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
         let divCenterContent = document.querySelector('.center-content');
         let createTagP = document.createElement('p');
         let paragraph = 'algum texto';
         createTagP.innerText = paragraph;
         divCenterContent.appendChild(createTagP);
+    // 5- Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+        let createDivLeftContent = document.createElement('div');
+        createDivLeftContent.className = 'left-content';
+        createDivMainContent.appendChild(createDivLeftContent);
     </script>
   </body>
 </html>
