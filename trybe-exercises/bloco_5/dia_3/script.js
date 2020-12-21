@@ -22,6 +22,12 @@ function createDaysOfTheWeek() {
     for(index = 0; index < dezDaysList.length; index +=1){
         let createLiDays = document.createElement('li');
         createLiDays.innerText = dezDaysList[index];
+        createLiDays.classList.add('day');
         days.appendChild(createLiDays);
+        if(dezDaysList[index] === 24 || dezDaysList[index] === 25 || dezDaysList[index] === 31 ){
+            createLiDays.classList.add('holiday');
+        } if(dezDaysList[index] === 4 || dezDaysList[index] === 11 || dezDaysList[index] === 18 || dezDaysList[index] === 25){
+            createLiDays.classList.add('friday');
+        }        
     }
   };
