@@ -52,15 +52,15 @@ function createDaysOfTheWeek() {
     //É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)".
 
   let clickHolidays = document.querySelector('#btn-holiday');  
-  let colorHolidays = document.querySelectorAll('.holiday');
+  let changeHolidays = document.querySelectorAll('.holiday');
   function markHolidays(){
-    for(let index1 = 0; index1 < colorHolidays.length; index1+=1){      
-      if(colorHolidays[index1].style.backgroundColor == 'yellow'){
-        colorHolidays[index1].style.backgroundColor = 'rgb(238,238,238)'
-        colorHolidays[index1].style.border = 'unset'
+    for(let index1 = 0; index1 < changeHolidays.length; index1+=1){      
+      if(changeHolidays[index1].style.backgroundColor == 'yellow'){
+        changeHolidays[index1].style.backgroundColor = 'rgb(238,238,238)'
+        changeHolidays[index1].style.border = 'unset'
       } else {
-        colorHolidays[index1].style.backgroundColor = 'yellow';
-        colorHolidays[index1].style.border = '1px solid'
+        changeHolidays[index1].style.backgroundColor = 'yellow';
+        changeHolidays[index1].style.border = '1px solid'
       }       
     }    
   }
@@ -74,5 +74,24 @@ function createDaysOfTheWeek() {
     fridayButton.innerText = buttonName;
     fridayButton.id = 'btn-friday';
     buttonsContainer.appendChild(fridayButton);
-  }
+  }  
   createFridaysButton('Sexta-Feira');
+
+  //Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+    //É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.
+  let clickFridays = document.querySelector('#btn-friday');
+  let changeFridays = document.querySelectorAll('.friday');
+  let arrayDays = [4, 11, 18, 25];
+  let contador = 0;
+  function markFridays(){
+    for(let index2 = 0; index2 < changeFridays.length; index2+=1){
+      if(changeFridays[index2].innerText == 'Sextou!'){
+        changeFridays[index2].innerText = arrayDays[contador];
+        contador+=1;
+      } else {
+        changeFridays[index2].innerText = 'Sextou!'
+        contador = 0;
+      }
+    }
+  }
+  clickFridays.addEventListener('click', markFridays)
