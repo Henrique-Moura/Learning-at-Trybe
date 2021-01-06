@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício HTML & CSS - Forms</title>
+  <link rel="stylesheet" href="bulma/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+</head>
+<body>
+  
+  <header class="filed" id="header">
+    <h1 class="label">Formulário Para Concorrer a Vagas Como Dev</h1>
+  </header>
+
+  <form>
+    <div class="field">
+      <label for="" class="label">Nome Completo</label>
+      <div class="control">
+        <input type="text" class="input">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control">
+        <input class="input" type="email" placeholder="Digite seu e-mail" value="hello@">
+      </div>      
+    </div>
+    
+    
+    <div id="div-box" class="field">
+      <label for="cpf" class="label">CPF:</label>
+      <div class="control">
+        <input type="text" name="cpf" id="cpf" maxlength="11" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{2}" placeholder="Ex: 12345678900" class="input" required>
+        <span class="help">Apenas números</span>
+      </div>
+    </div>
+    
+    <div id="div-box" class="field">
+      <label for="street" class="label">Rua:</label>
+      <div class="control">
+        <input type="text" id="street" class="input" name="street" placeholder="Ex:Av. Paulista" maxlength="200" required>
+        
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="city" class="label">Cidade:</label>
+      <div class="control">
+        <input type="text" id="city" class="input" name="city" placeholder="Ex:São Paulo" maxlength="28" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="state" class="label">Estado:</label>
+      <div class="control">
+        <div class="select">
+          <select name="state" id="state" name="state">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+      </div>
+    </div>
+      
+    <div id="div-box">
+      <p>Tipo de Moradia:</p>
+      <input type="radio" name="dwelling" id="home">
+      <label for="home">Casa</label>
+      <input type="radio" name="dwelling" id="apartment">
+      <label for="apartment">Apartamento</label>
+    </div>
+  
+    
+    
+    <legend>Dados do seu último emprego</legend>
+    <div id="div-box">
+      <label for="last-job">Resumo do currículo</label>
+      <textarea name="last-job" id="last-job" rows="5" required maxlength="1000" placeholder="Limite de 1000 caracteres"></textarea>  
+    </div>
+    
+    <div id="div-box">
+      <label for="office">Cargo:</label>
+      <input type="text" id="cargo" maxlength="40" placeholder="Digite seu cargo" required>
+    </div>
+    
+    <div id="div-box">
+      <label for="job-description">Descrição do Cargo</label>
+      <textarea name="job-description" id="job-description" rows="5" placeholder="Limite de 500 caracteres" maxlength="500"></textarea>
+    </div>
+    
+    <div id="div-box">
+      <label for="datapicker">Data de Inicio:</label>
+      <input type="text" id="datepicker">
+    </div>
+    
+    <div id="box-button">
+      <input type="checkbox" name="confirm-shipment" id="confirm-shipment" required>
+      <label for="confirm-shipment">Confirmar Envio</label>
+      <br>
+      <button type="submit">Enviar currículo</button>
+      <button type="reset">Limpar Tudo</button>
+    </div>    
+  </form>
+  <footer class="footer" id="footer">
+    <h1>Desevolvido por Henrique Moura em Parceria com Trybe</h1>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>  
+  <script>
+    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+  </script>
+</body>
+</html>
