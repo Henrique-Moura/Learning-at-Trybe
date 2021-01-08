@@ -46,5 +46,8 @@ figure {
 }
 
 @media screen and (min-width:1300px){
-  
+  body{
+    background-color: lightsalmon;
+  }
+
 }
