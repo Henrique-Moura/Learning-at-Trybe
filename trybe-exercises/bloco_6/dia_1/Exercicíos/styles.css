@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;  
+}
+body{
+  line-height: 2;
+  background-color: rgb(188, 223, 153);
+}
+#header, #footer{
+  background-color: rgb(138, 204, 72);
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  margin: auto;  
+}
+#header h1{
+  font-size: 40px;
+}
+#footer{
+  font-size: 20px;
+}
+fieldset, #box-button{
+  margin: auto;
+  width: 90%;
+}
+textarea{
+  width: 99%;
+}
+#div-box{
+  margin: 10px;
+}
+button{
+  padding: 2px;
+}
+legend{
+  font-size: 18px;
+  font-weight: bold;
+}

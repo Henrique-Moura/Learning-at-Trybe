@@ -1,0 +1,1 @@
+preventDefault(), permite que alterações sejam canceladas. Ex: permite bloquear que qualquer caracter diferente de numero seja colocado no cpf.
