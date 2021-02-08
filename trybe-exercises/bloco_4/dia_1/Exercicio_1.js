@@ -3,7 +3,7 @@ let b = 2;
 
 let soma = a + b;
     console.log(soma);
-let subtracao = a -b;
+let subtracao = a - b;
     console.log(subtracao);
 let multiplicacao = a * b;
     console.log(multiplicacao);
