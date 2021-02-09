@@ -4,3 +4,9 @@
 // Retorno esperado: true
 // verificaPalindrome("desenvolvimento") ;
 // Retorno esperado: false
+
+function verificaPalindrome(string) {
+  let reverse = string.split('').reverse().join('');
+  return reverse === string ? true : false
+}
+console.log(verificaPalindrome("desenvolvimento"));
