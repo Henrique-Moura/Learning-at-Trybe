@@ -1,0 +1,51 @@
+/* GABARITO */
+.container {
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+/* TODO */
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightcoral;
+    font-family: sans-serif;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+  }
+
+  /* TODO */
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  /* TODO */
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  /* TODO */
+}
