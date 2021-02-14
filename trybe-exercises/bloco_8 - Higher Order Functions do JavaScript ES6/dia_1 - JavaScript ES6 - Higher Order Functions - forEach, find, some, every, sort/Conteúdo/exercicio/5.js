@@ -1,5 +1,3 @@
-// Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-
 const assert = require('assert');
 
 const books = [
@@ -65,18 +63,11 @@ const books = [
   },
 ];
 
+const expectedResult = false
 
-function findAuthorBornIn1947(value) {
-  return value.author.birthYear === 1947;
+function everyoneWasBornOnSecXX() {
+  return books.every((book) => book.author.birthYear >= 1901 && book.author.birthYear <= 2000)
 }
-
-const testAuthorBornIn1947 = books.find(findAuthorBornIn1947)
-
-const authorBornIn1947 = testAuthorBornIn1947.author.name;
-
-assert.strictEqual(authorBornIn1947, 'Stephen King');
-
-
-/* function authorBornIn1947() {
-  return books.find(book => book.author.birthYear === 1947).author.name;
-}  GABARITO*/
+console.log(everyoneWasBornOnSecXX());
+assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
+// Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.

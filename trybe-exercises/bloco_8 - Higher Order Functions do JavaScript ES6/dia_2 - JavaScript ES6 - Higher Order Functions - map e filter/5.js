@@ -1,5 +1,3 @@
-// Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-
 const assert = require('assert');
 
 const books = [
@@ -65,18 +63,22 @@ const books = [
   },
 ];
 
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien'
+]
 
-function findAuthorBornIn1947(value) {
-  return value.author.birthYear === 1947;
+function fantasyOrScienceFictionAuthors() {
+  const array = [];
+  books.forEach((book) => {
+    if (book.genre === 'Ficção Científica' || book.genre === 'Fantasia') {
+      return array.push(book.author.name);
+    }
+  })
+  return array.sort()
 }
-
-const testAuthorBornIn1947 = books.find(findAuthorBornIn1947)
-
-const authorBornIn1947 = testAuthorBornIn1947.author.name;
-
-assert.strictEqual(authorBornIn1947, 'Stephen King');
-
-
-/* function authorBornIn1947() {
-  return books.find(book => book.author.birthYear === 1947).author.name;
-}  GABARITO*/
+console.log(fantasyOrScienceFictionAuthors());
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
+// Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
