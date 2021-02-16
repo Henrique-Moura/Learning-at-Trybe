@@ -24,7 +24,7 @@ Agora o Jest no exemplo abaixo consegue identificar o erro. */
 /* Quando estiver realizando testes, sempre procure verificar se o seu teste não está exibindo resultados falso-positivos. No exemplo acima, em que o teste está passando, basta mudar o valor final do expect de .toBe(15) para analisar outros cenários.
 Mude o valor .toBe(15) para .toBe(10) e verifique. O esperado é o teste identificar o erro. Caso isso ocorra, quer dizer que o seu teste está correto; caso continue passando e não encontre o erro, provavelmente seu teste está com algum falso-positivo. */
 
-const SumNumbers = (a, b, callback) => {
+/* const SumNumbers = (a, b, callback) => {
   setTimeout(() => {
     const result = a + b;
     callback(result);
@@ -36,4 +36,38 @@ test('Testando SumNumbers, soma 5 mais 10', done => {
     expect(result).toBe(10);
     done();
   });
-})
+}) */
+
+
+
+/* O primeiro teste desse código verificará se, ao chamar a função getListAnimals com Dog como parâmetro, o seu retorno será os dois cachorros do array Animals .
+ */
+
+const Animals = [
+  { name: 'Dorminhoco', age: 1, type: 'Dog' },
+  { name: 'Soneca', age: 2, type: 'Dog' },
+  { name: 'Preguiça', age: 5, type: 'Cat' },
+];
+
+const findAnimalsByType = (type) => (
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const arrayAnimals = Animals.filter((animal) => animal.type === type);
+      if (arrayAnimals.length !== 0) {
+        return resolve(arrayAnimals);
+      }
+
+      return reject({ error: 'Não possui esse tipo de animal.' });
+    }, 100);
+  })
+);
+
+
+describe('Quando o tipo do animal existe', () => {
+  test('Retorne a lista de animais', () => {
+    return findAnimalsByType('Dog').then(listDogs => {
+      expect(listDogs[0].name).toEqual('Dorminhoco');
+      expect(listDogs[1].name).toEqual('Soneca');
+    });
+  });
+});
