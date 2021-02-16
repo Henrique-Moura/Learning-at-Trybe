@@ -13,3 +13,5 @@ console.log(biggestWord('Antônio foi no banheiro e não sabemos o que aconteceu
 const longestWord = text => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0]
 
 console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"))
+
+/* Crie uma função que receba uma frase e retorne qual a maior palavra. */

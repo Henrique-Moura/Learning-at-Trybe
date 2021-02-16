@@ -1,5 +1,3 @@
-// Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-
 const assert = require('assert');
 
 const books = [
@@ -65,18 +63,21 @@ const books = [
   },
 ];
 
+const expectedResult = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu'
+]
 
-function findAuthorBornIn1947(value) {
-  return value.author.birthYear === 1947;
+function oldBooks() {
+  const array = [];
+  books.forEach((book) => {
+    if (book.releaseYear <= 1960) {
+      array.push(book.name)
+    }
+  })
+  return array
 }
-
-const testAuthorBornIn1947 = books.find(findAuthorBornIn1947)
-
-const authorBornIn1947 = testAuthorBornIn1947.author.name;
-
-assert.strictEqual(authorBornIn1947, 'Stephen King');
-
-
-/* function authorBornIn1947() {
-  return books.find(book => book.author.birthYear === 1947).author.name;
-}  GABARITO*/
+console.log(oldBooks());
+assert.deepStrictEqual(oldBooks(), expectedResult);
+// Crie um array com o nome de todos os livros com mais de 60 anos de publicação.

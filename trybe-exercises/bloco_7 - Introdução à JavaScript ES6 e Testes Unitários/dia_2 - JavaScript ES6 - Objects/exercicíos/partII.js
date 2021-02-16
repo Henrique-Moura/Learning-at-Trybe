@@ -54,11 +54,14 @@ console.log(allLessons);
 function studentsNumber(obj) {
   let counter = 0;
   const array = Object.values(obj)
-  for (let index = 0; index < Object.values(allLessons).length ; index += 1) {
+  for (let index = 0; index < array.length ; index += 1) {
     counter += array[index].numeroEstudantes;
   }
   return counter;
 }
 console.log(studentsNumber(allLessons))
 
-// Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. Por exemplo:
+// 7 - Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto.
+// Gabarito
+const getValueByNumber = (obj,number) => Object.values(obj)[number];
+console.log(getValueByNumber(lesson1, 0));
