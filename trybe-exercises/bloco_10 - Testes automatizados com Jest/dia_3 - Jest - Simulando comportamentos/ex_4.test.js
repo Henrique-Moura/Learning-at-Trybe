@@ -1,19 +1,14 @@
 /* Dentro de um mesmo arquivo, crie três funções. A primeira deve receber uma string e retorná-la em caixa alta. A segunda deve também receber uma string e retornar só a primeira letra. A terceira deve receber duas strings e concatená-las. Faça o mock do arquivo. Faça uma nova implementação para a primeira função, mas agora ela deve retornar a string em caixa baixa. Para a segunda função, uma nova implementação deve retornar a última letra de uma string. A terceira deve receber três strings e concatená-las.
  */
 
-const service = require('./ex_4');
-
+let { upperCase, stringFirstWord, concatenateString } = require('./ex_4');
+jest.mock('./ex_4');
 
 describe('tentando functions upperCase, stringFirstWord, concatenateString', () => {
   test('Faça uma nova implementação para upperCase, mas agora ela deve retornar a string em caixa baixa.', () => {
-    const first = jest.spyOn(service, "upperCase")
-    .mockImplementation((string) => string.toLowerCase())
+    upperCase.mockImplementation((string) => string.toLowerCase())
 
-    expect(first('HELLO')).toBe('hello');
-
-    service.upperCase.mockRestore();
-
-    expect(first("lowercase")).toBe("LOWERCASE");
+    expect(upperCase('HELLO')).toBe('hello');
   })
 
   test('Para stringFirstWord, uma nova implementação deve retornar a última letra de uma string.', () => {
