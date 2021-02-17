@@ -1,0 +1,24 @@
+{
+  "name": "git_projetos_trybe",
+  "version": "1.0.0",
+  "description": "*Sejam Bem-Vindxs ao meu super repositório!!!*",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrique-Moura/meu-super-repo-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henrique-Moura/meu-super-repo-/issues"
+  },
+  "homepage": "https://github.com/Henrique-Moura/meu-super-repo-#readme"
+}
