@@ -1,13 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-const tarefas = ['Casa' , 'Trybe', 'React'];
+const tarefas = ["Acordar", "Tomar café", "Escovar os dentes", "Ir trabalhar"];
 
-
-function App() {
-  return (
-    <ul>{ tarefas.map(tarefa => <li>{ tarefa }</li>) }</ul>
-  );
-}
+const App = () => ( <ul>{ tarefas.map(tarefa => <li>{ tarefa }</li>) }</ul> );
 
 export default App;
