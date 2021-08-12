@@ -105,8 +105,8 @@ Let's go!!
 ## Back-end development
 #####  Bloco 20 - Introdução à SQL
 - [x] *Introdução à SQL*
-- [x] *Encontrando dados em um banco de dados *
-- [x] *Filtrando dados de forma específica *
+- [x] *Encontrando dados em um banco de dados*
+- [x] *Filtrando dados de forma específica*
 - [x] *Manipulando tabelas*
 - [x] *[Projeto - All For One](https://github.com/tryber/sd-09-mysql-all-for-one/pull/56)*
 ##### Bloco 21 - Funções SQL, Joins e Subqueries
