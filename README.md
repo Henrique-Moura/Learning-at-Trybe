@@ -53,7 +53,7 @@ Let's go!!
 - [x] *JavaScript ES6 - Higher Order Functions - map e filter*
 - [x] *JavaScript ES6 - Higher Order Functions - reduce*
 - [x] *JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais*
-- [x] *[Projeto - Zoo functions](https://github.com/tryber/sd-09-project-zoo-functions/pull/16)*
+- [x] *[Projeto - Zoo functions](https://github.com/tryber/sd-09-project-zoo-functions/pull/16)* :zebra::giraffe::rhinoceros::elephant:
 #####  Bloco 9 - JavaScript Assíncrono e Promises
 - [x] *JavaScript Assíncrono e Callbacks*
 - [x] *JavaScript Promises*
@@ -68,18 +68,18 @@ Let's go!!
 #####  Bloco 11 - Introdução à React
 - [x] *'Hello, world!' no React!*
 - [x] *Componentes React*
-- [x] *[Projeto - Movie Cards Library](https://github.com/tryber/sd-09-project-movie-cards-library/pull/14)*
+- [x] *[Projeto - Movie Cards Library](https://github.com/tryber/sd-09-project-movie-cards-library/pull/14)* :movie_camera:
 #####  Bloco 12 - Componentes com Estado, Eventos e Formulários com React
 - [x] *Componentes com estado e eventos*
 - [x] *Formulários no React*
-- [x] *[Project - Movie Cards Library Stateful](https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/110)*
+- [x] *[Project - Movie Cards Library Stateful](https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/110)* :movie_camera:
 #####  Bloco 13 - Ciclo de Vida de Componentes e React Router
 - [x] *Ciclo de vida de componentes*
 - [x] *React Router*
-- [x] *[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/96)*
+- [x] *[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/96)* :movie_camera:
 #####  Bloco 14 - Metodologias Ágeis
 - [x] *Metodologias Ágeis*
-- [x] *[Projeto - Frontend Online Store](https://github.com/tryber/sd-09-project-frontend-online-store/pull/571)*
+- [x] *[Projeto - Frontend Online Store](https://github.com/tryber/sd-09-project-frontend-online-store/pull/571)* :convenience_store:
 #####  Bloco 15 - Testes automatizados com React Testing Library
 - [x] *RTL - Primeiros passos*
 - [x] *RTL - Mocks e Inputs*
@@ -91,16 +91,16 @@ Let's go!!
 - [x] *Usando o Redux no React - Prática*
 - [x] *Usando o Redux no React - Actions Assíncronas*
 - [x] *Testes em React-Redux*
-- [x] *[Projeto - Trybe Wallet](https://github.com/tryber/sd-09-project-trybewallet/pull/82)*
+- [x] *[Projeto - Trybe Wallet](https://github.com/tryber/sd-09-project-trybewallet/pull/82)* :credit_card:
 #####  Bloco 17 - Projeto Jogo de Trivia
-- [x] *[Projeto - Trivia Game](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/177)*
+- [x] *[Projeto - Trivia Game](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/177)* :video_game:
 #####  Bloco 18 - Context API e React Hooks
 - [x] *Context API do React*
 - [x] *React Hooks - useState e useContext*
 - [x] *React Hooks - useEffect e Hooks customizados*
 - [x] *[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-09-project-starwars-planets-search/pull/33)*
 #####  Bloco 19 - Projeto App de Receitas
-- [x] *[Projeto - App de Receitas](https://github.com/tryber/sd-09-project-recipes-app/pull/363)*
+- [x] *[Projeto - App de Receitas](https://github.com/tryber/sd-09-project-recipes-app/pull/363)* :plate_with_cutlery:
 
 ## Back-end development
 #####  Bloco 20 - Introdução à SQL
@@ -122,12 +122,12 @@ Let's go!!
 ##### Bloco 23 - Introdução ao MongoDB
 - [x] *MongoDB - Introdução*
 - [x] *Filter Operators*
-- [x] :airplane: *[Projeto - Data Flights](https://github.com/tryber/sd-09-mongodb-dataflights/pull/61)*
+- [x] *[Projeto - Data Flights](https://github.com/tryber/sd-09-mongodb-dataflights/pull/61)* :airplane:
 ##### Bloco 24 - MongoDB: Updates Simples e Complexos
 - [x]  *Updates Simples*
 - [x]  *Updates Complexos - Arrays - Parte 1*
 - [x]  *Updates Complexos - Arrays - Parte 2*
-- [x]  :hamburger: *[Projeto - Commerce](https://github.com/tryber/sd-09-mongodb-commerce/pull/54)*
+- [x]  *[Projeto - Commerce](https://github.com/tryber/sd-09-mongodb-commerce/pull/54)* :hamburger:
 ##### Bloco 25 - MongoDB: Aggregation Framework
 - [x] *Aggregation Framework - Part 1*
 - [x] *Aggregation Framework - Part 2*
@@ -138,18 +138,18 @@ Let's go!!
 - [x] *Testes com NodeJS*
 - [x] *Express: HTTP com Node.js*
 - [x] *Praticando Express*
-- [x] *[Projeto - Talker Manager](https://github.com/tryber/sd-09-project-talker-manager/pull/58)*
+- [x] *[Projeto - Talker Manager](https://github.com/tryber/sd-09-project-talker-manager/pull/58)* :speaking_head:
 ##### Bloco 27 - NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 - [x] *Arquitetura de Software - Camada de Model*
 - [x] *Arquitetura de Software - Camada de Controller e Service*
 - [x] *Arquitetura Web - Rest e Restful*
 - [x] *Arquitetura de Software - Testando as Camadas*
-- [x] *[Projeto - Store Manager](https://github.com/tryber/sd-09-store-manager/pull/50)*
+- [x] *[Projeto - Store Manager](https://github.com/tryber/sd-09-store-manager/pull/50)* :convenience_store:
 ##### Bloco 28 - Autenticação e Upload de Arquivos
 - [x] *NodeJS - JWT - (JSON Web Token)*
 - [x] *NodeJS - Upload de arquivos com Multer*
 - [x] *NodeJS - Testando APIs com Testes de Integração*
-- [x] *[Projeto - Cookmaster](https://github.com/tryber/sd-09-cookmaster-v2/pull/13)*
+- [x] *[Projeto - Cookmaster](https://github.com/tryber/sd-09-cookmaster-v2/pull/13)* :cook: :woman_cook:
 ##### Bloco 29 - Deployment
 - [x] *Infraestrutura - Deploy com Heroku*
 - [x] *Deploy - Gerenciadores de Processos*
@@ -166,7 +166,7 @@ Let's go!!
 - [x] *Sockets - TCP/UDP & NET*
 - [x] *Sockets - Socket.io*
 - [ ] *Sockets - Praticando Socket.io*
-- [ ] *Projeto - Webchat*
+- [ ] *Projeto - Webchat* :desktop_computer: :keyboard: :computer_mouse:
 #### Bloco 32 - Projeto - App de Delivery
 - [ ] *Projeto - App de Delivery*
 
