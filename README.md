@@ -165,8 +165,8 @@ Let's go!!
 - [x] *Arquitetura de Software - Camada de View*
 - [x] *Sockets - TCP/UDP & NET*
 - [x] *Sockets - Socket.io*
-- [ ] *Sockets - Praticando Socket.io*
-- [ ] *Projeto - Webchat* :desktop_computer: :keyboard: :computer_mouse:
+- [x] *Sockets - Praticando Socket.io*
+- [x] *[Projeto - Webchat](https://github.com/tryber/sd-09-project-webchat/pull/16)* :desktop_computer: :keyboard: :computer_mouse:
 #### Bloco 32 - Projeto - App de Delivery
 - [ ] *Projeto - App de Delivery*
 
