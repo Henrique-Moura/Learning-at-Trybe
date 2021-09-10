@@ -168,7 +168,7 @@ Let's go!!
 - [x] *Sockets - Praticando Socket.io*
 - [x] *[Projeto - Webchat](https://github.com/tryber/sd-09-project-webchat/pull/16)* :desktop_computer: :keyboard: :computer_mouse:
 #### Bloco 32 - Projeto - App de Delivery
-- [ ] *Projeto - App de Delivery*
+- [x] *[Projeto - App de Delivery](https://github.com/tryber/sd-09-project-delivery-app/pull/65)*
 
 ## Ciência da Computação
 ##### Bloco 33 - Introdução à Python
