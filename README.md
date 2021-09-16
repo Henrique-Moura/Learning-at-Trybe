@@ -172,7 +172,7 @@ Let's go!!
 
 ## Ciência da Computação
 ##### Bloco 33 - Introdução à Python
-- [ ] *Aprendendo Python*
+- [x] *Aprendendo Python*
 - [ ] *Entrada e Saída de dados*
 - [ ] *Raspagem de Dados*
 - [ ] *Testes*
