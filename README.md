@@ -173,8 +173,7 @@ Let's go!!
 ## Ciência da Computação
 ##### Bloco 33 - Introdução à Python
 - [x] *Aprendendo Python*
-- [ ] *Entrada e Saída de dados*
-- [ ] *Raspagem de Dados*
+- [x] *Entrada e Saída de dados*
 - [ ] *Testes*
 - [ ] *Projeto - Job Insights*
 ##### Bloco 34 - Programação Orientada a Objetos e Padrões de Projeto
