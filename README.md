@@ -174,7 +174,7 @@ Let's go!!
 ##### Bloco 33 - Introdução à Python
 - [x] *Aprendendo Python*
 - [x] *Entrada e Saída de dados*
-- [ ] *Testes*
+- [x] *Testes*
 - [ ] *Projeto - Job Insights*
 ##### Bloco 34 - Programação Orientada a Objetos e Padrões de Projeto
 - [ ] *Introdução à programação orientada a objetos*
