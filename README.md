@@ -175,12 +175,12 @@ Let's go!!
 - [x] *Aprendendo Python*
 - [x] *Entrada e Saída de dados*
 - [x] *Testes*
-- [ ] :briefcase: *[Projeto - Job Insights](https://github.com/tryber/sd-09-project-job-insights/pull/48) :briefcase:*
+- [x] :briefcase: *[Projeto - Job Insights](https://github.com/tryber/sd-09-project-job-insights/pull/48) :briefcase:*
 
 ##### Bloco 34 - Programação Orientada a Objetos e Padrões de Projeto
-- [ ] *Introdução à programação orientada a objetos*
-- [ ] *Herança, Composições e Interfaces*
-- [ ] *Padrões de projeto*
+- [x] *Introdução à programação orientada a objetos*
+- [x] *Herança, Composições e Interfaces*
+- [x] *Padrões de projeto*
 - [ ] *Projeto - Relatórios de Estoque*
 #### Bloco 35 - Redes e Raspagem de Dados
 - [ ] *Arquitetura de redes*
