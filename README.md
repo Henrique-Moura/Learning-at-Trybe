@@ -181,7 +181,7 @@ Let's go!!
 - [x] *Introdução à programação orientada a objetos*
 - [x] *Herança, Composições e Interfaces*
 - [x] *Padrões de projeto*
-- [x] :card_file_box: *[Projeto - Relatórios de Estoque](https://github.com/tryber/sd-09-inventory-report/pull/15)* :card_file_box:3
+- [x] :card_file_box: *[Projeto - Relatórios de Estoque](https://github.com/tryber/sd-09-inventory-report/pull/15)* :card_file_box:
 
 #### Bloco 35 - Redes e Raspagem de Dados
 - [ ] *Arquitetura de redes*
