@@ -183,22 +183,25 @@ Let's go!!
 - [x] *Padrões de projeto*
 - [x] :card_file_box: *[Projeto - Relatórios de Estoque](https://github.com/tryber/sd-09-inventory-report/pull/15)* :card_file_box:
 
-#### Bloco 35 - Redes e Raspagem de Dados
-- [ ] *Arquitetura de redes*
+##### Bloco 35 - Redes e Raspagem de Dados
+- [x] *Arquitetura de redes*
 - [ ] *Redes de computadores, ferramentas e segurança*
 - [ ] *Raspagem de Dados*
 - [ ] *Projeto - Tech news*
+
 ##### Bloco 36 - Algoritmos
 - [ ] *Complexidade de Algoritmos*
 - [ ] *Recursividade e Estratégias para solução de problemas*
 - [ ] *Algoritmos de ordenação e busca*
 - [ ] *Projeto - Algoritmos*
+
 ##### Bloco 37 - Estrutura de Dados I: Arrays, Hashmaps e Sets
 - [ ] *Arquitetura de Computadores*
 - [ ] *Arrays*
 - [ ] *Hashmap e Dict*
 - [ ] *Set*
 - [ ] *Projeto - Restaurant Orders*
+
 ##### Bloco 38 - Estrutura de Dados II: Listas, Filas e Pilhas
 - [ ] *Nó e Listas ligadas*
 - [ ] *Deque*
