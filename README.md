@@ -185,9 +185,9 @@ Let's go!!
 
 ##### Bloco 35 - Redes e Raspagem de Dados
 - [x] *Arquitetura de redes*
-- [ ] *Redes de computadores, ferramentas e segurança*
-- [ ] *Raspagem de Dados*
-- [ ] *Projeto - Tech news*
+- [x] *Redes de computadores, ferramentas e segurança*
+- [x] *Raspagem de Dados*
+- [x] :newspaper: *[Projeto - Tech news](https://github.com/tryber/sd-09-tech-news/pull/12)* :newspaper:
 
 ##### Bloco 36 - Algoritmos
 - [ ] *Complexidade de Algoritmos*
