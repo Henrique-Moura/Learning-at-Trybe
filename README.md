@@ -190,16 +190,16 @@ Let's go!!
 - [x] :newspaper: *[Projeto - Tech news](https://github.com/tryber/sd-09-tech-news/pull/12)* :newspaper:
 
 ##### Bloco 36 - Algoritmos
-- [ ] *Complexidade de Algoritmos*
-- [ ] *Recursividade e Estratégias para solução de problemas*
-- [ ] *Algoritmos de ordenação e busca*
-- [ ] *Projeto - Algoritmos*
+- [x] *Complexidade de Algoritmos*
+- [x] *Recursividade e Estratégias para solução de problemas*
+- [x] *Algoritmos de ordenação e busca*
+- [x] *[Projeto - Algoritmos](https://github.com/tryber/sd-09-project-algorithms/pull/68)*
 
 ##### Bloco 37 - Estrutura de Dados I: Arrays, Hashmaps e Sets
-- [ ] *Arquitetura de Computadores*
-- [ ] *Arrays*
-- [ ] *Hashmap e Dict*
-- [ ] *Set*
+- [x] *Arquitetura de Computadores*
+- [x] *Arrays*
+- [x] *Hashmap e Dict*
+- [x] *Set*
 - [ ] *Projeto - Restaurant Orders*
 
 ##### Bloco 38 - Estrutura de Dados II: Listas, Filas e Pilhas
