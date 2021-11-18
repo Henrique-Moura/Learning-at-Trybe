@@ -200,7 +200,7 @@ Let's go!!
 - [x] *Arrays*
 - [x] *Hashmap e Dict*
 - [x] *Set*
-- [ ] *Projeto - Restaurant Orders*
+- [x] *[Projeto - Restaurant Orders](https://github.com/tryber/sd-09-restaurant-orders/pull/65)*
 
 ##### Bloco 38 - Estrutura de Dados II: Listas, Filas e Pilhas
 - [ ] *Nó e Listas ligadas*
